@@ -11,6 +11,7 @@ import java.util.ArrayList;
 //Записать результаты в файл в формате:
 //Line: #; SEven: ; AOdd: ; Max: ; Min:
 // если ошибка - Line: #; Error
+
 public class Main {
     public static void writeSorted(Writer writer, ArrayList<String> arr) {
         DataProcessor dataProcessor;

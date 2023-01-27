@@ -42,5 +42,4 @@ public class DataProcessor {
         return this.data.stream().min(Integer::compareTo).get();
 
     }
-
 }
