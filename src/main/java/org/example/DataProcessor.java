@@ -21,7 +21,7 @@ public class DataProcessor {
         return sum;
     }
 
-    public int addOdd() {
+    public int avgOdd() {
 //среднее значение нечетных
         int sum = 0;
         int count = 0;
@@ -31,7 +31,7 @@ public class DataProcessor {
                 count++;
             }
         }
-        return sum / count;
+        return (count >0) ? sum/count : sum;
     }
 
     public int max() {
@@ -40,6 +40,5 @@ public class DataProcessor {
 
     public int min() {
         return this.data.stream().min(Integer::compareTo).get();
-
     }
 }

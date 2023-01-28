@@ -39,7 +39,7 @@ public class Main {
                 dataProcessor = new DataProcessor(Parser.pars(s));
                 textData = "Line: " + count +
                         "; SEven: " + dataProcessor.sumEven() +
-                        "; AOdd: " + dataProcessor.addOdd() +
+                        "; AOdd: " + dataProcessor.avgOdd() +
                         "; Max: " + dataProcessor.max() +
                         "; Min: " + dataProcessor.min();
                 writer.write(textData);
